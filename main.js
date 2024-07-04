@@ -698,7 +698,7 @@ class Main {
 
         // Gabungkan semua objek yang dapat ditabrak
         let collisionObjects = [...poles.map(p => p.getMesh()), ...bars.map(b => b.getMesh())];
-        // this.player.setCollisionObjects(collisionObjects);
+         this.player.setCollisionObjects(collisionObjects);
         this.player2.setCollisionObjects(collisionObjects);
 
         this.clock = new THREE.Clock(); // Pindahkan ini sebelum digunakan
