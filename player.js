@@ -131,7 +131,7 @@ export class Player {
             this.rotationVector.z += dtMouse.y * 800 * dt;
             
             this.mesh.rotation.y = this.rotationVector.y;
-            this.mesh.rotation.z = this.rotationVector.z;
+            //this.mesh.rotation.z = this.rotationVector.z;
         }
 
         var fowardVector = new THREE.Vector3(1, 0, 0);
